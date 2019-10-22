@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  api_main : 'https://demo4arquisoft.000webhostapp.com/api/v1/'
 };
 
 /*

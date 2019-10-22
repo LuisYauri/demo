@@ -1,1 +1,17 @@
-<p>list works!</p>
+<nav class="navbar navbar-dark bg-dark header-height">
+  <div class="header-title">Temas de Negocios - Clientes VIP</div>
+</nav>
+
+<div class="body-card">
+  <div class="row">
+    <div class="col-12"  *ngFor="let busines of listBusiness">
+      <div class="card box-card-body">
+        <div class="card-body">
+          <div class="box-card-title">{{busines.title}}</div>
+          <div>{{busines.content}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
